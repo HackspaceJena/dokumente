@@ -3,4 +3,7 @@
 *.out
 *.tex.backup
 *.toc
+*.mtc
+*.mtc0
+*.ptc1
 
