@@ -1,0 +1,66 @@
+* Antrag zur Unterstützung des Junghackertages beim Hackspace Jena e.\nbsp V.
+** Zusammenfassung
+   Der Hackspace Jena e.V. ist ein gemeinnütziger Verein und möchte ein Angebot
+   für Kinder und Jugendliche schaffen. Die Junghackertage sind eine Reihe von
+   Veranstaltungen, bei denen es um den spielerischen Umgang mit Technik
+   geht. Um allen die Teilnahme zu ermöglichen, soll die Reihe auf Basis von
+   Spenden veranstaltet werden. Um dennoch die notwendigen Ausgaben leisten zu
+   können, beantragen wir eine Förderung für die Veranstaltungsreihe.
+** Hackspace Jena e.V.
+   Der Hackspace Jena e.V. wurde im Jahr 2012 in Jena gegründet und hat sich zum
+   Ziel gesetzt, ein Anlaufpunkt für Menschen mit Interesse an
+   Informationstechnologie zu sein. Dazu betreibt der Verein den Krautspace,
+   einen Raum in der Krautgasse\nbsp 26. Der Raum dient als Treffpunkt, als
+   Veranstaltungsort für Vorträge und Workshops, als Ausstellungsort und vieles
+   mehr.
+
+   Im Verein sind derzeit 45\nbsp Mitglieder organisiert und er ist als
+   gemeinnützig anerkannt.
+
+** Junghackertage
+   Die Junghackertage ist eine Reihe von Einzelveranstaltungen, die zunächst im
+   Jahr 2016 stattfinden sollen. Sie richten sich an Kinder und Jugendliche und
+   sollen diese an den Umgang mit Technik spielerisch heranführen. Die Reihe ist
+   so gestaltet, dass sie verschiedene Altersgruppen anspricht.
+
+   Derzeit sind zehn Veranstaltungen in Planung. Die ersten Veranstaltungen
+   richten sich an Kinder im Grundschultalter. Dabei werden mit den Kindern
+   einfache Malroboter und Klackerlaken gebastelt. Wir zeigen, wie sich aus
+   einfachen Bestandteilen interessante Gegenstände basteln lassen.
+
+   In den folgenden Veranstaltungen stehen dann elektronische Bauteile, so
+   genannte Pentabugs, bereit. Aus den Bauteilen wird ein kleiner Käfer gelötet,
+   der auf Geräusche und Licht reagiert. Der Chip kann weiterhin individuell
+   programmiert werden. Im Rahmen der Veranstaltung steht das Löten der
+   Pentabugs im Vordergrund. Sie richtet sich ebenfalls an Kinder im
+   Grundschultalter.
+
+   Der Computer und seine Benutzung steht im Vordergrund weiterer
+   Veranstaltungen. So wollen wir mit allen Teilnehmern PCs aus Einzelteilen
+   zusammenstellen. Die Kinder und Jugendlichen sollen so den Aufbau und die
+   Funktionsweise von Computern kennenlernen. Nachdem grundlegende Kenntnisse in
+   der Hardware vermittelt wurden, soll es an die Software gehen. Die
+   Programmiersprache bietet einen spielerischen Einstieg in das
+   Programmieren. Aus grafischen Bestandteilen können einfache wie auch sehr
+   komplexe Programme erstellt werden. Wir wollen mit Jugendlichen erste
+   Schritte unternehmen und zeigen, worauf es beim Programmieren ankommt.
+
+   Zum Jahresende hin soll es Verstanstaltungen geben, die auf Webtechnologien
+   eingehen und solche die sichmit physikalischen Effekten beschäftigen.
+
+   Insgesamt entsteht dadurch eine Reihe von Veranstaltungen, die Kindern und
+   Jugendlichen Wissen in einem Bereich vermittelt, der heutzutage essenziell
+   erscheint und andererseits von Schulen nicht in dem erforderlichen Ausmaß
+   abgedeckt wird.
+
+** Antrag
+   Die Veranstaltung soll mittels Flyern und Plakaten, die in Schulen ausgelegt
+   bzw. ausgehangen werden, geworben werden. Weiterhin benötigt der Hackspace
+   Jena\nbsp e.V. Bauteile für die Veranstaltungen mit Hardware-Bezug. Ein Teil
+   der Mittel wurde bereits über Spenden eingeworben. Jedoch bewegt sich der
+   gesamte Finanzbedarf in einem Rahmen, der nicht durch Privatspenden im
+   Vorfeld abgedeckt werden kann.
+
+   Daher beantragen wir eine Förderung durch die Intershop-Stiftung in Höhe von
+   500\nbsp Euro. Dies ermöglicht es uns, die oben genannten nötigen Ausgaben
+   vorab zu decken und einen großen Teilnehmerkreis anzusprechen.
