@@ -28,12 +28,12 @@
    einfache Malroboter und Klackerlaken gebastelt. Wir zeigen, wie sich aus
    einfachen Bestandteilen interessante Gegenstände basteln lassen.
 
-   In den folgenden Veranstaltungen stehen dann elektronische Bauteile, so
-   genannte Pentabugs, bereit. Aus den Bauteilen wird ein kleiner Käfer gelötet,
+   In den folgenden Veranstaltungen geht es dann um elektronische Bauteile.
+   Aus den Bauteilen wird ein kleiner Käfer gelötet - ein sogenannter Pentabug,
    der auf Geräusche und Licht reagiert. Der Chip kann weiterhin individuell
    programmiert werden. Im Rahmen der Veranstaltung steht das Löten der
    Pentabugs im Vordergrund. Sie richtet sich ebenfalls an Kinder im
-   Grundschultalter.
+   Grundschulalter.
 
    Der Computer und seine Benutzung steht im Vordergrund weiterer
    Veranstaltungen. So wollen wir mit allen Teilnehmern PCs aus Einzelteilen
@@ -46,7 +46,7 @@
    Schritte unternehmen und zeigen, worauf es beim Programmieren ankommt.
 
    Zum Jahresende hin soll es Verstanstaltungen geben, die auf Webtechnologien
-   eingehen und solche die sichmit physikalischen Effekten beschäftigen.
+   eingehen und solche die sich mit physikalischen Effekten beschäftigen.
 
    Insgesamt entsteht dadurch eine Reihe von Veranstaltungen, die Kindern und
    Jugendlichen Wissen in einem Bereich vermittelt, der heutzutage essenziell
