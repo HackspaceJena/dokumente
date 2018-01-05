@@ -1,0 +1,406 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[scaled=.93]{helvet}
+\usepackage{eurosym}
+\usepackage{multicol}
+\usepackage{scrlayer-scrpage}
+\usepackage{csquotes}
+
+\setkomafont{section}{\fontsize{13bp}{14.5bp}\selectfont\bfseries}
+\setkomafont{subsection}{\fontsize{12bp}{14.5bp}\selectfont\bfseries}
+\RedeclareSectionCommand[
+    beforeskip=-.75\baselineskip,
+    afterskip=.3\baselineskip]{section}
+\RedeclareSectionCommand[
+    beforeskip=-.5\baselineskip,
+    afterskip=.3\baselineskip]{subsection}
+% \renewcommand{\sectionheadstartvskip}{\vspace*{-1\topskip}}
+% \renewcommand{\sectionheadendvskip}{\vspace*{0.2\topskip}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex}
+\setlength{\columnsep}{1cm}
+\flushbottom
+
+%\pagestyle{myheadings}
+%\markright{Protokoll der Jahreshauptversammlung 2017 des Hackspace Jena e.\,V.}
+\pagestyle{scrheadings}
+\ohead{Protokoll der Jahreshauptversammlung 2017 des Hackspace Jena e.\,V.}
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+\setlength{\itemsep}{-5pt}
+\setlength{\parsep}{0pt}
+}{\end{enumerate}}
+\newenvironment{packed_item}{
+\begin{itemize}
+\setlength{\itemsep}{-5pt}
+\setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+\newenvironment{eingerueckt}{
+\begin{addmargin*}[3ex]{-3ex}
+\begin{minipage}{\linewidth}
+}{
+\end{minipage}
+\end{addmargin*}}
+
+
+\makeatletter
+\newenvironment{AbsatzHaengend}[1]{\par\noindent\@hangfrom{\textbf{#1}}\ignorespaces}
+                                  {\par}
+\makeatother
+
+\newcommand{\qbi}{Jens Kubieziel}
+\newcommand{\berndf}{Bernd Kampe}
+\newcommand{\berndm}{Bernd Hüsing}
+\newcommand{\adrian}{Adrian Pauli}
+\newcommand{\gecko}{Gecko}
+\newcommand{\joe}{Jonas Melzer}
+\newcommand{\hanna}{Johanna Schell}
+
+\begin{document}
+
+\thispagestyle{plain}
+\textbf{\large{Protokoll der Jahreshauptversammlung des Hackspace Jena
+e.\,V.}}
+\vspace{5mm}
+\begin{multicols}{2}
+
+\begin{AbsatzHaengend}{Ort: }Vereinsräume des Hackspace Jena,\\Krautgasse 26, 07743 Jena\end{AbsatzHaengend}
+\begin{AbsatzHaengend}{Zeit: }09.\,Dezember~2017 \\15:23 Uhr -- 19:15 Uhr\end{AbsatzHaengend}
+\begin{AbsatzHaengend}{Anwesend: }13~Mitglieder und 2~Gäste\end{AbsatzHaengend}
+\begin{AbsatzHaengend}{Versammlungsleitung: }\qbi{}\end{AbsatzHaengend}
+\begin{AbsatzHaengend}{Protokoll: }\berndm{}\end{AbsatzHaengend}
+
+\section{Begrüßung}
+15:23 Uhr eröffnet der amtierende Vorsitzende \qbi{} die Versammlung mit der
+Begrüßung der Teilnehmer. Anwesend sind 13~Mitglieder und 2~Gäste.
+
+\section{Wahl der Versammlungsleitung}
+Die Anwesenden betrauen \qbi{} mit der Leitung der Versammlung und \berndm{}
+mit der Protokollierung.
+
+\section{Vorstellung der Tagesordnung}
+\qbi{} verliest die Punkte der Tagesordnung und die zu behandelnden Themen, wie
+sie auch im Wiki zu finden sind.
+\begin{packed_enum}
+\item Begrüßung
+\item Wahl der Versammlungsleitung
+\item Vorstellung der Tagesordnung
+\item Feststellung der ordentlichen Einladung
+\item Abnahme des Protokolls von 2016
+\item Rechenschaftsberichte
+\item Entlastung des Vorstandes
+\item Wahl des neuen Vorstandes
+\item Wahl der Kassenprüfer
+\item Sonstige Themen
+\item Verabschiedung
+\end{packed_enum}
+Die Tagesordnung und Themen werden mit einer Stimme Enthaltung angenommen.
+
+\section{Feststellung der ordentlichen Einladung}
+Es wird festgestellt, daß alle Mitglieder ordnungsgemäß per E-Mail bzw.
+Brief über den Termin informiert wurden. Die Versammlung ist beschlußfähig.
+
+\section{Annahme des Protokolls von 2016}
+Das Protokoll der Jahreshauptversammlung 2016 liegt in vielfacher Ausführung
+allen zur Einsicht vor und wird in offener Abstimmung mit einer Stimme
+Enthaltung angenommen.
+
+\section{Rechenschaftsberichte}
+\subsection{Schatzmeister}
+\berndf{} gibt seinen Rechenschaftsbericht. Der Verein finanziert
+sich in erster Linie durch die Mitgliedsbeiträge und den Verkauf der
+Getränke. Dieser ist wichtig, da die Mitgliedsbeiträge nicht ausreichen, um
+die Fixkosten zu decken. Das Repariercafe macht plus. Bei der Kassenprüfung
+wurde festgestellt, daß die Kasse ein vierstelligen Minusbetrag aufweist. Da
+die Einnahmen aus dem Getränkeverkauf anscheinend nicht dem entspechen, was
+bei der eingekauften Menge zu erwarten wäre, besteht der Verdacht des
+Diebstahls aus der Getränkekasse.
+
+Es wird angemerkt, daß die Spendenkasse der Langen Nacht der Wissenschaft
+noch nicht verbucht wurde. \qbi{} wirft ein, daß die Entlastung des Vorstandes
+am Minus scheitern könnte.
+
+Die Festkosten werden jetzt per SEPA-Lastschriftverfahren automatisch
+eingezogen. Der im letzten Jahr vorgeschlagene Wechsel der Versicherung
+wurde geprüft und ist inzwischen vollzogen. Die Steuererklärung zum Erhalt
+der Gemeinnützigkeit für den Zeitraum 2013 bis 2016 wurde erledigt.
+Ansonsten der übliche Bürokram.
+    
+Späterer Nachtrag: Das Repariercafe hat heute den Antrag für den Bus
+gestellt.
+
+\subsection{Bericht der Kassenprüfer}
+\joe{} gibt einen Bericht zur Kassenprüfung. Die Führung der Kasse  erfolgte
+ordnungsgemäß.
+
+\subsection{Schriftführer(in)}
+\hanna{} gibt ihren Rechenschaftsbericht. Der Haupteil der Arbeit war
+bürokratischer Kram, Berichte schreiben und gelegentliche Vermittlung bei
+Konflikten.
+
+\subsection{Vorsitzender}
+\qbi{} gibt einen sehr ausführlichen Rechenschaftsbericht. Neben dem üblichen
+Bürokram hat er sich im letzten Jahr um folgende Sachen gekümmert.
+\begin{packed_item}
+\item Abarbeiten von Tickets im OTRS
+\item Loomio für Abstimmungen wurde eingerichtet
+\item Sicherheitsbeauftragten gefunden
+\item Besuch des Vereinsforum der Bürgerstiftung
+\item Besichtigungen von Räumlichkeiten für das Repariercafe
+\item Ausstehende Mitgliedsbeiträge -- 4 säumige Mitglieder wurden
+ausgeschlossen, 1 Mitglied hat bezahlt, 6 Mitglieder befinden sich noch in
+der Schwebe. Generell werden die Mitgliedsbeiträge aber pünktlich bezahlt.
+\end{packed_item}
+\berndf{} merkt an, daß die Mitgliederzahl seit zwei Jahren ziemlich
+konstant ohne Karteileichen bei 40 liegt.
+\begin{packed_item}
+\item Gespräch mit einem Richter bezüglich der Vergabe von Bußgeldern an
+gemeinnützige Vereine. Dieser Prozeß stockt momentan.
+\item Der Verein hat ein Fördermitglied. Es wird an einem anderen
+potentiellen Sponsor gearbeitet.
+\item Zusammenarbeit mit der Kinderinitiative und anderen zwecks
+Fördergeldern.
+\item Versuch Fördermittel aus Lottogeldern zu erhalten
+\item Erarbeitung der \enquote{7 Thesen für ein bürgerfreundliches digitales Jena}
+\item Umzug des Server des Vereins
+\item Cryptoworkshop mit dem Arbeitskreis kritischer Juristen
+\item Workshop mit Kindern der Jena-Planschule
+\end{packed_item}
+
+\section{Entlastung des Vorstandes}
+Fragen zu den Rechenschaftsberichten gab es keine. Es wird einstimmig
+beschlossen, die Abstimmung über die Entlastung des Vorstandes in einer
+offenen Abstimmung vorzunehmen. Zusätzlich wird mit einer Stimmenenthaltung
+dafür plädiert, den Vorstand gemeinsam zu entlasten.
+
+\begin{eingerueckt}
+\begin{tabular}{lr}
+Stimmen für eine Entlastung: & 9 \\
+Stimmenenthaltungen: & 4 \\
+Stimmen gegen eine Entlastung: & 0
+\end{tabular}
+\end{eingerueckt}
+
+Damit ist der bisherige Vorstand entlastet.
+
+\textsl{Die Versammlung pausiert 5 Minuten.}
+
+\section{Wahl des neuen Vorstandes}
+\adrian{} übernimmt die Funktion des Wahlleiters. Das Finden eines Kandidaten
+für das Amt des Schatzmeisters gestaltet sich etwas schwierig. Schlußendlich
+stehen folgende Kandidaten zur Wahl:
+\begin{packed_item}
+\item Vorsitzender: \gecko{}, \qbi{}
+\item Schatzmeister: \adrian{}
+\item Schriftführer: \qbi{}
+\end{packed_item}
+Die Kandidaten stellen sich und ihre Ziele vor. Im Anschluß erfolgt in
+geheimer Abstimmung die Wahl.
+
+\subsection{Vorsitzender}
+\begin{eingerueckt}
+\begin{tabular}{lr}
+Stimmen für \qbi{}: & 1 \\
+Stimmen für \gecko{}: & 9 \\
+Stimmenenthaltungen: & 1 \\
+Ungültige Stimmen: & 2
+\end{tabular}
+\end{eingerueckt}
+
+\gecko{} nimmt die Wahl an.
+
+\subsection{Schatzmeister}
+\begin{eingerueckt}
+\begin{tabular}{lr}
+Stimmen für \adrian{}: & 11 \\
+Stimmenenthaltungen: & 2 \\
+Gegenstimmen: & 0
+\end{tabular}
+\end{eingerueckt}
+
+\adrian{} nimmt die Wahl an.
+
+\subsection{Schriftführer}
+\begin{eingerueckt}
+\begin{tabular}{lr}
+Stimmen für \qbi{}: & 9 \\
+Stimmenenthaltungen: & 3 \\
+Gegenstimmen: & 1
+\end{tabular}
+\end{eingerueckt}
+
+\qbi{} nimmt die Wahl an.
+
+\section{Wahl der Kassenprüfer}
+Als Kandidaten stellen sich \joe{} und Tim Schell zur Verfügung. In einer
+offenen Abstimmung werden beide einstimmig in diese Funktion berufen. Beide
+nehmen die Wahl an.
+
+\vspace{1em}
+\textsl{Die Versammlung pausiert 5 Minuten. Ein Gast verläßt die
+Versammlung.}
+
+\section{Sonstige Themen}
+
+\subsection{Anpassung der Mitgliedsbeiträge}
+\berndf{} erläutert die Gründe hierfür.
+\begin{packed_item}
+\item Hohe Festkosten (ca. \EUR{680} pro Monat)
+\item Stromkosten wegen über 1000~KW mehr gestiegen
+\end{packed_item}
+
+Der Vorschlag wären \EUR{20} für reguläre Mitglieder, sowie \EUR{10} für
+eine ermäßigte Mitgliedschaft. Es gibt Bedenken Leute mit geringen
+finanziellen Mitteln dadurch auszuschließen. Anderseits ist der Beitrag
+verhältnismäßig gering und die Satzung würde in Härtefällen ausdrücklich
+Abweichungen davon ermöglichen. Eine offene Abstimmung erbringt das
+Ergebnis:
+
+\begin{eingerueckt}
+\begin{tabular}{lr}
+Stimmen füe eine Erhöhung: & 13 \\
+Stimmenenthaltungen: & 0 \\
+Stimmen gegen eine Erhöhung: & 0
+\end{tabular}
+\end{eingerueckt}
+
+Damit ist die Beitragserhöhung beschlossen und tritt ab Januar~2018 in
+Kraft.
+    
+\subsection{Teilnahme an den Chemnitzer Linuxtagen mit einem Stand}
+\qbi{} erläutert den Hintergrund. Es gibt Bedenken, daß der Aufwand den Nutzen
+übersteigt. Generell gibt es aber eine zustimmende Haltung zu dem Vorschlag.
+\joe{}, Lakritzguru, Felix und \adrian{} bilden den Kern eines Orga-Teams dafür.
+
+\subsection{Aktivitäten zur Erlangen von Fördergeldern}
+Aufgrund der Finanzlage gibt es überlegungen zur Erlangung von
+Fördermitteln. Dazu stehen folgende Überlegungen im Raum:
+\begin{packed_item}
+\item Gründung eines ERFA-Kreises. Zum einem wegen der Thematischen Nähe,
+zum anderen würde es dem Verein Fördermittel des CCC erschließen. 
+\item Fördermittel aus dem Topf der Soziokulturförderung der Stadt Jena.
+Hier wären zweckgebundene Fördermittel für einzelne Veranstaltungen möglich.
+\item Die Züblin~AG und die Sparkasse vergeben Fördermittel.
+\item Weiterhin gibt es wohl die Möglichkeit der Bewerbung auf Preisgelder.
+\end{packed_item}
+Generell müssen solche Anträge gut begründet werden. Um den finanziellen
+Handlungsspielraum so groß wie möglich zu halten, sollte sich der Verein
+darum bemühen, daß die Gelder möglichst wenig zweckgebunden sind.
+
+\subsection{Erneute Abwägung der Zielsetzung des Hackspaces als ERFA-Kreis des
+CCC}
+\qbi{} erläutert die Bedingungen, welche an einen ERFA-Kreis gebunden sind. Wir
+würden einige dieser Bedingungen erfüllen, aber bei weitem nicht alle.
+Besonders nicht, daß der gesamte Vorstand Mitglied im Chaos Computer Club seien
+müßte. Faktisch würde ein ERFA-Kreis die Gründung des CCC Jena bedeuten.
+Eine so enge Bindung an den CCC ist nur bedingt erwünscht.
+
+\subsection{Bekanntmachung der Türschließanlage}
+Aufbau und Funktion der Türschließanlage ist inzwischen bekannt. Dank und
+Applaus für die Macher der Anlage.
+    
+\subsection{Quo Vadis Verein?}
+\enquote{Was wollen wir machen?}
+\begin{packed_item}
+\item regelmäßiges Junghacking
+\item Veranstaltungen im Bereich Amateufunk
+\item Klassischen LPD \enquote{nur} im zweiten Halbjahr. Überlegungen im ersten
+Halbjahr eine Art weiterführenden Kurs zu veranstalten.
+\item \enquote{Coding Corner} nur unregelmäßig, aber in Verbinung mit
+einem Vortrag zum Thema
+\end{packed_item}
+Generell wird festgestellt, daß die Planung noch Möglichkeiten zur
+Verbesserung bietet. In Zukunft sollten Roadmaps und Checklisten für
+Veranstaltungen erstellt werde. Wir sollten längerfristig planen.
+
+Für den Betrieb des Hackspaces ist ein gewisser Grundstock an Geräten
+notwendig. Wenn es andere Makerspaces in Jena gibt, soll eine Kooperation
+mit diesen angestrebt werden.
+
+\subsection{Strafrechtlich relevante oder hackerunethische Dinge im
+Hackspace}
+Es wurden anscheind gestohlene Dinge in den Hackspace gebracht. Als
+Mitwisser macht man sich strafbar. Wie wollen wir damit umgehen?
+\begin{packed_item}
+\item Es müssen Konsequenzen folgen
+\item Diese sollen im Ernstfall bis zum Ausschluß der Person reichen
+\item Erste Maßnahme soll ein Gespräch mit der Person sein
+\end{packed_item}
+Im September wurde das erste mal festgestellt, daß Geld aus der Kasse fehlt.
+Es wird erwogen Strafanzeige gegen Unbekannt zu stellen. Die andere Frage
+ist, welche vorbeugenden Maßnahmen wir für die Zukunft ergreifen wollen.
+Dazu gibt es den Vorschlag Beträge ab einer bestimmten Höhe nicht mehr bar,
+sondern per Überweisung zu begleichen. Das wird als unpraktisch abgelehnt.
+Genereller Konsens ist, daß wir keine unsozialen oder illegalen Aktionen im
+Hackspace wollen.
+
+\subsection{Brand im Keller}
+Seit dem Brand im Keller kommt ein recht penetranter Gestank aus dem
+Lüftungsschacht in der Toilette. Der Vermieter soll um eine Reinigung des
+Lüftungsschachtes gebeten werden.
+
+\subsection{Delegieren von Aufgaben des Vorstandes}
+Es kam die Frage auf, ob der Vorstand Teile seine Aufgaben an Mitglieder
+delegieren darf. Es wird festgestellt, daß dem nichts im Wege steht.
+
+\section{Verabschiedung}
+Aus Zeitgründen wird die Versammlung 19:15 Uhr für beendet erklärt. Die
+noch ausstehenden Punkte sollen zu einem nicht näher festgelegten Zeitpunkt
+abgearbeitet werden. Lakritzguru lädt für den kommenden Mittwoch zum 5-jährigem
+Jubiläum der Brettspielrunde ein.
+
+\end{multicols}
+
+\vspace{10mm}
+\textbf{\textsf{\large{Der neue Vorstand}}}
+
+Der Vorstand des Hackspace Jena e.\,V. setzt sich seit dem 09.\,Dezember~2017 
+wie folgt zusammen:
+
+\vspace{3mm}
+\begin{eingerueckt}
+\begin{tabular}{ll}
+Vorstandsvorsitzender: & \gecko{} \\
+Schatzmeister: & \adrian{} \\
+Schriftführer: & \qbi{}
+\end{tabular}
+\end{eingerueckt}
+
+\vspace{10mm}
+\textbf{\textsf{\large{Für die Richtigkeit des Protokolls}}} \\[2mm]
+\hfill
+\begin{minipage}[t]{20mm}
+\vspace{22mm}
+\hrule
+\vspace{2mm}
+\small{Datum}
+\end{minipage}
+\begin{minipage}[t]{50mm}
+\vspace{22mm}
+\hrule
+\vspace{2mm}
+\small{\qbi{}\\\textsl{Versammlungsleiter}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{20mm}
+\vspace{22mm}
+\hrule
+\vspace{2mm}
+\small{Datum}
+\end{minipage}
+\begin{minipage}[t]{50mm}
+\vspace{22mm}
+\hrule
+\vspace{2mm}
+\small{\berndm{}\\\textsl{Protokollführender}}
+\end{minipage}
+\hfill
+\\[8mm]
+Jena, den 10. Dezember 2017
+
+\end{document}
