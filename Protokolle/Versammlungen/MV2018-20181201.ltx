@@ -1,0 +1,334 @@
+\documentclass[]{scrartcl}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[scaled=.93]{helvet}
+\usepackage{eurosym}
+\usepackage{multicol}
+\usepackage{scrlayer-scrpage}
+\usepackage{csquotes}
+\usepackage{bera}
+\usepackage{berasans}
+\usepackage{beraserif}
+\usepackage{beramono}
+\usepackage[colorlinks,breaklinks]{hyperref}
+\usepackage[normalem]{ulem}
+
+
+\setkomafont{section}{\fontsize{13bp}{14.5bp}\selectfont\bfseries}
+\setkomafont{subsection}{\fontsize{12bp}{14.5bp}\selectfont\bfseries}
+\RedeclareSectionCommand[
+    beforeskip=-.75\baselineskip,
+    afterskip=.3\baselineskip]{section}
+\RedeclareSectionCommand[
+    beforeskip=-.5\baselineskip,
+    afterskip=.3\baselineskip]{subsection}
+% \renewcommand{\sectionheadstartvskip}{\vspace*{-1\topskip}}
+% \renewcommand{\sectionheadendvskip}{\vspace*{0.2\topskip}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex}
+\setlength{\columnsep}{1cm}
+\flushbottom
+
+%\pagestyle{myheadings}
+%\markright{Protokoll der Jahreshauptversammlung 2017 des Hackspace Jena e.\,V.}
+\pagestyle{scrheadings}
+\ohead{Protokoll der Jahreshauptversammlung 2018 des Hackspace Jena e.\,V.}
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+\setlength{\itemsep}{-5pt}
+\setlength{\parsep}{0pt}
+}{\end{enumerate}}
+\newenvironment{packed_item}{
+\begin{itemize}
+\setlength{\itemsep}{-5pt}
+\setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+\newenvironment{eingerueckt}{
+\begin{addmargin*}[3ex]{-3ex}
+\begin{minipage}{\linewidth}
+}{
+\end{minipage}
+\end{addmargin*}}
+
+
+\makeatletter
+\newenvironment{AbsatzHaengend}[1]{\par\noindent\@hangfrom{\textbf{#1}}\ignorespaces}
+                                  {\par}
+\makeatother
+
+\newcommand{\qbi}{Jens Kubieziel}
+\newcommand{\berndf}{Bernd Kampe}
+%\newcommand{\berndm}{Bernd Hüsing}
+\newcommand{\adrian}{Adrian Pauli}
+\newcommand{\gecko}{Gecko}
+\newcommand{\joe}{Jonas Melzer}
+%\newcommand{\hanna}{Johanna Schell}
+\newcommand{\phine}{Josephine Vibrans}
+\newcommand{\tim}{Tim Schell}
+\newcommand{\lowlevel}{Fabian Thoms}
+\newcommand{\fiveop}{Philipp Schäfer}
+\newcommand{\jonny}{Jonny}
+\newcommand{\philipp}{Philipp}
+\newcommand{\adam}{Adam}
+
+\begin{document}
+
+\thispagestyle{plain}
+\textbf{\large{Protokoll der Jahreshauptversammlung des Hackspace Jena
+e.\,V.}}
+\vspace{5mm}
+\begin{multicols}{2}
+
+\begin{AbsatzHaengend}{Ort: }Vereinsräume des Hackspace Jena,\\Krautgasse 26, 07743 Jena\end{AbsatzHaengend}
+\begin{AbsatzHaengend}{Zeit: }1.\,Dezember~2018 \\14:23 Uhr -- 16:56 Uhr\end{AbsatzHaengend}
+\begin{AbsatzHaengend}{Anwesend: }19~Mitglieder und ein~Gast\end{AbsatzHaengend}
+\begin{AbsatzHaengend}{Versammlungsleitung: }\adrian{}\end{AbsatzHaengend}
+\begin{AbsatzHaengend}{Protokoll: }\phine{}\end{AbsatzHaengend}
+
+
+\section{Vorbemerkung}
+
+Vor dem eigentlichen Start der MV gibt uns Oda vom Reparier-Caf\'e ein kurzes
+Update zum Bus. Von Fördergeldern wurde ein Bus gekauft. Dieser steht derzeit
+beim  Schlachthof. Jedoch steht er dort unter freiem Himmel und es wird nach
+einem überdachten Stellplatz gesucht. Ab dem Frühjahr sollen Reparaturen im Bus
+stattfinden.
+
+
+\section{Begrüßung}
+14:23 Uhr eröffnet der amtierende Schatzmeister \adrian{} die Versammlung mit der
+Begrüßung der Teilnehmer. Anwesend sind 19~Mitglieder und ein Gast.
+
+\section{Wahl der Versammlungsleitung und des Protokollführers}
+Die Anwesenden betrauen \adrian{} mit der Leitung der Versammlung und \phine{}
+mit der Protokollierung. Das Ergebnis beider Abstimmungen ist einstimmig.
+
+\section{Abstimmung der Tagesordnung}
+Die geplanten Punkte der Tagesordnung werden verlesen und einstimmig von allen
+Teilnehmerinnen und Teilnehmern angenommen.
+\begin{packed_enum}
+\item Begrüßung
+\item Wahl der Versammlungsleitung und des Protokollführers
+\item Abstimmung der Tagesordnung
+\item  Genehmigung der Protokolle von der Versammlung vom 9.\,Dezember~2017
+\item  Rechenschaftsbericht des Vorstands
+\item  Bericht der Kassenprüfer
+\item Abstimmung über Entlastung des Vorstands
+\item Wahl des neuen Vorstands
+\item Wahl der Kassenprüfer
+\item  Abstimmung zur Wahl von Beisitzern
+\item  Abstimmung über Satzungsänderung zur Verlängerung der Amtsdauer der Vorstandsposten
+\item Verabschiedung
+\end{packed_enum}
+
+
+\section{Genehmigung der Protokolle von der Versammlung vom 9.\,Dezember~2017}
+
+Die Protokolle der Versammlung aus dem Jahr 2017 liegt bei Github und als
+Ausdruck vor. In offener Abstimmung wird das Protokoll mit drei Enthaltungen und
+16 Ja"=Stimmen angenommen.
+
+\section{Rechenschaftsbericht des Vorstands}
+
+Die drei Vorstände geben den Rechenschaftsbericht ab. Inhaltlich entspricht er
+dem, was bei
+\href{https://github.com/HackspaceJena/dokumente/blob/master/Protokolle/Aktivit\%C3\%A4ten/Rechenschaftsbericht-2018.pdf}{Github
+  hinterlegt} ist.
+
+\gecko{} kümmerte sich hauptsächlich um Öffentlichkeitsarbeit, nahm an
+verschiedenen Veranstaltungen teil und präsentierte dort unseren Verein.
+
+\qbi{} sprach den Ausschluss eines Mitglieds an. Der Vorstand entschied sich
+nach eingehender Beratung einstimmig, das Mitglied auszuschließen und ein
+Hausverbot auszusprechen. Weiterhin erledigt er einigen Bürokram, pflegte das
+OTRS und kommunizierte nach außen.
+
+\adrian{} führte die üblichen Schatzmeistertätigkeiten aus. Neue Mitglieder
+wurden begrüßt und andere verabschiedet. Er schrieb Quartalsberichte, verwaltete
+Post und unterstützte Veranstaltungen.
+
+
+\section{Bericht der Kassenprüfer}
+\joe{} und  \tim{} geben einen Bericht zur Kassenprüfung. Es wurde festgestellt,
+dass eine Getränkerechnung fehlt. Die Überweisung ist rausgegangen und \adrian{}
+versucht, den Beleg zu beschaffen. Die Entlastung des Vorstands wird empfohlen.
+
+\section{Abstimmung über Entlastung des Vorstands}
+
+Es gab keine Fragen zu den einzelnen Rechenschaftsberichten. Es wird einstimmig
+beschlossen, die Abstimmung über die Entlastung des Vorstandes in einer
+offenen, gemeinsamen Abstimmung vorzunehmen.
+\begin{eingerueckt}
+\begin{tabular}{lr}
+Stimmen für eine Entlastung: & 16 \\
+Stimmenenthaltungen: & 3 \\
+Stimmen gegen eine Entlastung: & 0
+\end{tabular}
+\end{eingerueckt}
+Damit ist der bisherige Vorstand entlastet.
+
+\textsl{Die Sitzung wird von 15:22 bis 15:35~Uhr unterbrochen.}
+
+\section{Wahl des neuen Vorstands}
+\adrian{} übernimmt die Funktion des Wahlleiters. Folgende Kandidaten stehen zur
+Wahl:
+\begin{packed_item}
+\item Vorsitzender: \lowlevel{}
+\item Schatzmeister: \fiveop{}
+\item Schriftführer: \berndf{}
+\end{packed_item}
+Die Kandidaten stellen sich und ihre Ziele vor. Im Anschluß erfolgt in
+geheimer Abstimmung die Wahl.
+
+\subsection{Vorsitzender}
+\begin{eingerueckt}
+\begin{tabular}{lr}
+Stimmen für \lowlevel{}: & 14 \\
+  Stimmenenthaltungen: & 4 \\
+  Gegenstimmen: & 1\\
+\end{tabular}
+\end{eingerueckt}
+\lowlevel{} nimmt die Wahl an.
+
+\subsection{Schatzmeister}
+\begin{eingerueckt}
+\begin{tabular}{lr}
+Stimmen für \fiveop{}: & 18\\
+Stimmenenthaltungen: & 0 \\
+Gegenstimmen: & 1
+\end{tabular}
+\end{eingerueckt}
+\fiveop{} nimmt die Wahl an.
+
+\textsl{Um 15:59~Uhr} trifft ein weiteres Mitglied ein.
+
+\subsection{Schriftführer}
+\begin{eingerueckt}
+\begin{tabular}{lr}
+Stimmen für \berndf{}: & 17\\
+Stimmenenthaltungen: & 1\\
+Gegenstimmen: & 1
+\end{tabular}
+\end{eingerueckt}
+\berndf{} nimmt die Wahl an.
+
+\textsl{Um 16:07~Uhr} trifft ein weiteres Mitglied ein.
+
+\section{Wahl der Kassenprüfer}
+
+Es wurde eine geheime, nach Kandidaten getrennte Wahl beantragt. 
+Als Kandidaten stellen sich \jonny{} und \philipp{} zur Verfügung.
+
+\subsection{Kassenprüfer 1}
+\begin{eingerueckt}
+\begin{tabular}{lr}
+Stimmen für \jonny{}: & 20\\
+Stimmenenthaltungen: & 0\\
+Gegenstimmen: & 1
+\end{tabular}
+\end{eingerueckt}
+
+\jonny{} nimmt die Wahl an.
+
+\subsection{Kassenprüfer 2}
+\begin{eingerueckt}
+\begin{tabular}{lr}
+Stimmen für \philipp{}: & 20\\
+Stimmenenthaltungen: & 0\\
+Gegenstimmen: & 1
+\end{tabular}
+\end{eingerueckt}
+
+\philipp{} nimmt die Wahl an.
+
+\section{Abstimmung zur Wahl von Beisitzern}
+
+Es wird die Frage aufgeworfen, ob der Vorstand Helfer (Consultants) benennen
+kann. Dies wird eindeutig bejaht. Die Rolle kommt Beisitzern zu. Es wird darüber
+abgestimmt, ob Beisitzer gewählt werden sollen. Neun Mitglieder stimmen dafür,
+sechs dagegen und sechs enthalten sich. Anschließend kandidieren \adam{} und
+\qbi{}. In einer offenen, gemeinsamen Abstimmung stimmen 17~Mitglieder (bei
+4~Enthaltungen und 0~Gegenstimmen) für die Kandidaten. Beide nehmen die Wahl an.
+
+\section{Abstimmung über Satzungsänderung zur Verlängerung der Amtsdauer der
+  Vorstandsposten}
+
+Es wurde vorgeschlagen, den §\,9 der Satzung wie folgt zu ändern:
+\begin{quote}
+  6. Die Amtsdauer der Vorstandsmitglieder beträgt \sout{ein Jahr}
+  \uline{regulär zwei Jahre}. Sie werden von der Mitgliederversammlung aus den ordentlichen Mitgliedern des Vereins gewählt. Es werden nacheinander Vorstandsvorsitzender, Schatzmeister und Schriftführer sowie falls gewünscht bis zu drei Beisitzer gewählt. Eine Wiederwahl ist beliebig oft zulässig. \uline{Eine Neuwahl zur Mitgliederversammlung im folgenden Jahr ist ebenfalls möglich.}
+\end{quote}
+Zu diesem Vorschlag gab es Diskussionen unter den Mitgliedern. Die Intention ist
+es, den organisatorischen Aufwand für die Ummeldung des Kontos kleiner zu
+halten. Mit einer Zwei"=Jahres"=Regelung muss dies nicht mehr so oft
+passieren. Die Aufgabe des Schatzmeisters erscheint oft stressig und anstrengend
+zu sein. Daher lassen sich viele nicht wiederwählen.
+
+Es wird eingewandt, dass eine Verlängerung der Amtszeit Stress und Anstrengungen
+der Aufgabe nicht weniger werden lassen. So könnte mit der Änderung ein
+Schatzmeister auch nach einem Jahr die Aufgabe abgeben. Es wird die Frage
+diskutiert, wie man den Schatzmeister ggf. anderweitig entlasten kann.
+
+Schließlich wird der Vorschlag abgestimmt und es gibt 8~Ja"=Stimmen,
+9~Nein"=Stimmen sowie 4~Enthaltungen. Damit ist der Vorschlag abgelehnt.
+
+Anschließend gibt es den Vorschlag, dass sich Personen, die Interesse an
+Satzungsänderungen haben, zusammenfinden, um mögliche Vorschläge zu entwickeln.
+
+\section{Verabschiedung}
+Die Versammlung wird um 16:56~Uhr durch den neuen Vorstand für  beendet erklärt.
+
+\end{multicols}
+
+\vspace{10mm}
+\textbf{\textsf{\large{Der neue Vorstand}}}
+
+Der Vorstand des Hackspace Jena e.\,V. setzt sich seit dem 1.\,Dezember~2018
+wie folgt zusammen:
+
+\vspace{3mm}
+\begin{eingerueckt}
+\begin{tabular}{ll}
+Vorstandsvorsitzender: & \lowlevel{} \\
+Schatzmeister: & \fiveop{} \\
+Schriftführer: & \berndf{}
+\end{tabular}
+\end{eingerueckt}
+
+\vspace{10mm}
+\textbf{\textsf{\large{Für die Richtigkeit des Protokolls}}} \\[2mm]
+\hfill
+\begin{minipage}[t]{20mm}
+\vspace{22mm}
+\hrule
+\vspace{2mm}
+\small{Datum}
+\end{minipage}
+\begin{minipage}[t]{50mm}
+\vspace{22mm}
+\hrule
+\vspace{2mm}
+\small{\adrian{}\\\textsl{Versammlungsleiter}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{20mm}
+\vspace{22mm}
+\hrule
+\vspace{2mm}
+\small{Datum}
+\end{minipage}
+\begin{minipage}[t]{50mm}
+\vspace{22mm}
+\hrule
+\vspace{2mm}
+\small{\phine{}\\\textsl{Protokollführender}}
+\end{minipage}
+\hfill
+\\[8mm]
+Jena, den 2.\,Januar~2019
+
+\end{document}
