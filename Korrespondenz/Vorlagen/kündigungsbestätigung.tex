@@ -1,0 +1,52 @@
+\documentclass[
+fromemail,
+fromlogo,
+fromurl
+]{scrlttr2}
+
+\usepackage{fontspec}
+\usepackage[ngerman]{babel}
+
+% Get the font here https://www.dafont.com/squared-display.font, for example.
+\newkomafont{logo}{\fontspec[Ligatures=TeX]{Squared Display}\fontsize{32}{32}\selectfont}
+
+\begin{document}
+
+\setkomavar{fromaddress}{%
+  Hackspace Jena e.V.\\
+  Krautgasse 26\\
+  07743 Jena%
+}
+\setkomavar{fromemail}{office@hackspace-jena.de}
+\setkomavar{fromurl}{https://kraut.space}
+\setkomavar{fromlogo}{{\usekomafont{logo}kraut}\_\,{\usekomafont{logo}space}}
+
+\setkomavar{signature}{%
+  Margarete Vorstandsmitglied\\
+  Überwachungsbeauftragte%
+}
+
+\setkomavar{subject}{%
+  Kündigungsbestätigung
+}
+
+\begin{letter}{%
+    Max Mitglied\\
+    Hauptstraße 123\\
+    01234 Neustadt%
+  }
+
+  \opening{Sehr geehrter Max Mitglied,}
+
+  hiermit bestätige ich Ihnen die Kündigung ihrer Mitschliedschaft im Hackspace~Jena~e.V. zum 31. Dezember 2042.
+
+  \closing{Mit freundlichen Grüßen,}
+
+\end{letter}
+\end{document}
+
+%%% Local Variables:
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End:
