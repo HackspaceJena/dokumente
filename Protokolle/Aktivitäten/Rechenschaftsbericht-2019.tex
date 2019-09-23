@@ -1,0 +1,277 @@
+\documentclass[ngerman]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage{xcolor}
+\usepackage{hyperref}
+\definecolor{darkblue}{rgb}{0,0,.5}
+
+\hypersetup{pdftex=true, colorlinks=true, %
+	breaklinks=true, linkcolor=black, %
+	urlcolor=darkblue}
+
+\usepackage[ngerman]{babel}
+%\usepackage{enumitem}
+\usepackage{marvosym}
+
+% Euro
+\usepackage{eurosym}
+
+% Einheiten und Zahlen korrekt setzen
+\usepackage[binary-units=true]{siunitx}
+\sisetup{locale = DE, detect-all}
+\DeclareSIUnit{\EUR}{\text{\euro{}}}
+
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+\usepackage{fixltx2e}
+\usepackage[final,babel]{microtype} % Verbesserung der Typographie
+\usepackage{paralist}
+
+\usepackage{bera}
+\usepackage{berasans}
+\usepackage{beraserif}
+\usepackage{beramono}
+\usepackage{csquotes}
+%\setitemize{itemsep=0pt}
+
+\title{Rechenschaftsbericht}
+\subtitle{Hackspace Jena e.\,V.}
+\author{%
+	Bernd Kampe (Schriftführer)\\
+	Philipp Schäfer (Schatzmeister)
+}
+\date{02.\,Dezember~2018 bis 07.\,September~2019}
+
+\begin{document}
+
+\maketitle{}
+\newpage
+
+\tableofcontents{}
+
+\newpage{}
+
+\section{Mitgliederenwicklung}
+
+Zum Stichtag, dem 7.\,September~2019, hat unser Verein 50~Mitglieder sowie ein Fördermitglied.
+Seit der letzten Jahreshauptversammlung haben wir 3~Mitglieder begrüßt und 7~Mitglieder verabschiedet.
+
+\section{Finanzen}
+
+Im Zeitraum vom 2.\,Dezember~2018 bis zum 4.\,September~2019 erhielt unser Verein Einnahmen von \num{8816.35}~\euro{} und tätigte Ausgaben von \num{14172,88}~\euro{}.
+Daraus ergibt sich eine Abnahme von \num{-5356,53}~\euro{}.
+
+
+\subsection{Ideeller Bereich}
+\label{sec:ideeller_bereich}
+
+Im ideellen Bereich gab es in diesem Zeitraum folgende Einnahmen:
+\begin{compactitem}
+\item Mitgliedsbeiträge in Höhe von \num{6252}~\euro{}
+\item \num{635}~\euro{} Spenden
+\item \num{862,75}~\euro{} Rückzahlung von Versicherungsbeiträgen für den Bus
+\end{compactitem}
+Insgesamt sind das Einnahmen von \num{7749,75}~\euro{}.
+
+Die Ausgaben in diesem Zeitraum für Miete, Internet sowie die Abschläge für Nebenkosten betragen \num{7151,07}~\euro{}.
+\num{4847,96}~\euro{} wurden für den Reparier-Café Bus ausgegeben.
+Für sonstige Sachen wurden \num{706,71}~\euro{} ausgegeben.
+Dies sind zum Teil Ausstattungsgegenstände und Verbrauchsmaterialien wie Toilettenpapier, Reinigungsmittel, Müllbeutel usw.
+Außerdem wurden Werkzeuge und Bauteile für die Werkstatt angeschafft.
+Gesamt sind das Ausgaben in diesem Bereich von \num{12705.74}~\euro{}.
+
+Der ideele Bereich hat somit ein Minus von \num{4955.99}~\euro{} eingebracht.
+\newpage
+\subsection{Zweckbetrieb}
+\label{sec:Zweckbetrieb}
+Aus den Verkäufen von Getränken und Snacks ergaben sich Einnahmen von \num{1747,47}~\euro{}, wobei für \num{787,82}~\euro{} Waren eingekauft haben.
+Damit ergibt sich ein Überschuss von \num{959,65}~\euro{}, der für Finanzierungen im ideellen Bereich verwendet werden kann.
+
+Das Reparier-Café nahm durch ihre Veranstaltungen \num{816,86}~\euro{} ein und gab für Ersatzteile \num{318,71}~\euro{} aus.
+Damit ergibt sich ein Überschuss von \num{498,15}~\euro{}, der für Finanzierungen im ideellen Bereich verwendet werden kann.
+
+Insgesamt hat damit unser Zweckbetrieb einen Überschuss von \num{1457,80}~\euro{} erwirtschaftet.
+
+\subsection{Zweckgebundene Spenden}
+\label{sec:zweckgebundene_spenden}
+
+\begin{table}[h]
+        \centering
+        \begin{tabular}{l|r|r|r}
+        \toprule
+        \textsc{Projekt} & \textsc{Eingang} & \textsc{Ausgang} & \textsc{Stand} \\
+        \midrule
+        Freifunk & \num{0}~\euro{} & \num{0}~\euro{} & \num{5,01}~\euro{} \\
+        Reparier-Café & \num{225}~\euro{} & \num{199,90}~\euro{} & \num{25,10}~\euro{} \\
+        Werkstattbus Reparier-Café & \num{0}~\euro{} & \num{4847,96}~\euro{} & \num{0}~\euro{} \\
+        Tor-Relay & \num{0}~\euro{} & \num{00,00}~\euro{} & \num{220,16}~\euro{} \\
+        Veranstaltung Förderung Ehrenamt 2018 & \num{300}~\euro{} & \num{629,61}~\euro{} & \num{0}~\euro{} \\
+        QR-Codes für CCCamp & \num{30}~\euro{} & \num{0}~\euro{} & \num{30}~\euro{} \\
+\bottomrule
+        \end{tabular}
+        \caption{Eingänge/Ausgänge Zweckgebundene Spenden}
+        \label{table:spenden}
+\end{table}
+
+\subsection{Kontoführung}
+\label{sec:Kontoführung}
+Für die Kontoführung wurden \num{191,30}~\euro{} aufgewendet.
+
+\subsection{Aktueller Kontostand}
+
+\begin{table}[h!]
+        \centering{}
+        \begin{tabular}{l|r}
+        \toprule
+        \textsc{Konto} & \textsc{Kontostand} \\
+        & \textsc{am 04.\,09.\,2019} \\
+        \midrule
+        Barkasse & \num{329,02}~\euro{} \\
+        Reparier-Café Barkasse & \num{771,41}~\euro{} \\
+        Kautionskonto & \num{1668,11}~\euro{} \\
+        Girokonto & \num{3728,53}~\euro{}\\
+        \bottomrule
+        \end{tabular}
+\caption{Übersicht der Konten}
+\end{table}
+
+%\section{Veranstaltungen}
+\newpage
+\section{Vereinsaktivitäten}
+
+Ein großer Teil der Vereinstätigkeiten ergibt sich aus der
+Bereitstellung der Infrastruktur. So haben sich regelmäßige offene Runden
+etabliert, in denen themenbezogen gearbeitet wird. Für die
+einzelnen Veranstaltungen haben sich Freiwillige aus dem Verein
+gefunden, die sich um die Organisation kümmern.
+
+\begin{table}[h]
+  \centering{}
+	\begin{tabularx}{\textwidth}{l|X}
+          \toprule
+		\textsc{Name} & \textsc{Turnus} \\ \midrule
+		Elektronikrunde   & wöchentlich \\
+		Chaostreff        & wöchentlich \\
+		Spieleabend       & zweiwöchentlich \\
+		Linux User Group  & wöchentlich \\
+                Drohnen Meetup    & monatlisch \\
+		Gaming am Freitag & zweiwöchentlich \\
+                Plenum            & monatlich \\
+		Thuringiafurs Stammtisch & monatlich \\
+		Saturday Make Session    & zweiwöchentlich \\
+		Reparier-Café     & monatlich \\
+\bottomrule
+\end{tabularx}
+
+\caption{Aktivitäten}
+\end{table}
+
+\subsection{Elektronikrunde}
+
+Die Elektronikrunde trifft sich wöchentlich im Krautspace.
+Sie unterstützt bei Elektronikprojekten, Fehlersuche,
+Reparaturen und fördert den Erfahrungsaustausch.
+Der Verein stellt dabei einen großen Teil der Werkzeuge und
+Verbrauchsmaterialien bereit.
+
+\subsection{Chaostreff und monatliches Plenum}
+
+Der Chaostreff ist unsere wöchentlich stattfindende themenoffene Runde.
+An diesem Tag steht der Raum Mitgliedern und Gästen zur freien Verfügung.
+
+Einmal im Monat gab es ein Plenum. Hier wurden vereinsinterne Themen und Projekte besprochen.
+
+\subsection{Spieleabend -- Gesellschaftsspielerei}
+
+Am Spieleabend werden alle zwei Wochen anspruchsvolle Brett- und
+Kartenspiele mit unterschiedlichen Spielkonzepten gespielt.
+Es wurden aktuelle Spiele von Spielemessen präsentiert.
+
+\subsection{GNU/Linux User Group}
+
+Die Linux-User-Group trifft sich wöchenlich um Themen der freien Software
+zu behandeln. Die Veranstaltung wurde besucht und es gab Vorträge. Es
+konnte Gästen bei unterschiedlichen Computerproblemen geholfen werden.
+
+\subsection{Gaming am Freitag}
+
+Beim Gamingstammtisch geht es um Computerspiele — egal auf welcher
+Plattform, ob gekauft oder selbst geschrieben. Die Schwerpunkte sind
+Game Design und die Auswirkungen des Spielens auf Spieler und
+Gesellschaft.
+
+\subsection{Reparier-Café}
+
+Seit 31.\,Juli~2014 ist das Reparier-Café ein fester Bestandteil unseres Vereins.
+Es leistet Hilfe bei der Reparatur von Gebrauchsgegenständen.
+Seine monatlichen Veranstaltungen werden sehr gut besucht. In diesem Jahr wurden
+der im vergangenen Jahr angeschaffte Linienbus als Werkstattbus in Betrieb genommen.
+
+\subsection{Saturday Make Session}
+
+Zweimal im Monat stehen die Räume des Hackspace jedem Bastler offen. Unter
+Anleitung kann gebohrt, gefräst, gefeilt, gelötet und programmiert werden.
+
+\subsection{Drohnen Meetup}
+
+Das Drohnen Meetup bietet seit diesem Jahr eine Plattform im Hackspace, um sich über den Bau und den Betrieb von Drohnen auszutauschen, aber auch über Technik und Vorschriften. Dieses Jahr wurde ein Vortrag von PD Dr. habil Christian Thiel aus dem Deutschen Zentrums für Luft und Raumfahrt (DLR) in Jena organisiert, in dem er seine Forschung mit Drohnen erklärte. Zudem wurde das Gelände des CCCamp2019 durch Photogrammetrie 3d-vermessen.
+
+\subsection{Öffentlichkeitsarbeit}
+Als Verein haben wir zusätzlich auch an mehreren Veranstaltungen mitgewirkt:
+\begin{compactitem}
+	\item Stand bei den Chemnitzer Linux"=Tagen 2019
+	\item Stand auf dem Fakultätsfest Mathematik und Informatik der FSU
+	\item Pavillon auf dem Chaos Communication Camp 2019
+\end{compactitem}
+
+
+\section{Tätigkeitsberichte des Vorstandes}
+
+\subsection{Philipp Schäfer (Schatzmeister)}
+
+\subsubsection{Finanzen}
+
+Philipp hat regelmäßig, mit Unterstützung anderer Mitglieder, die Barkasse in
+den Vereinsräumen geleert, Quittungen von Einkäufen und Rechnung entgegen
+genommen und archiviert. Offene Rechnung hat er an Bernd weitergeleitet, da
+er selbst mangels fehlendem Vereinsregistereintrag keinen Zugriff auf die Konten
+hatte.
+
+\subsubsection{Mitgliederverwaltung}
+
+Philipp hat sich um die ordungsgemäße Verwaltung von Ein- und Austritten der
+Mitglieder gekümmert.
+
+\subsubsection{Kommunikation}
+
+Philipp hat sich vornehmlich um die Innen- und Außenkommunikation über das
+Ticketsystem hinter unserer Vorstands-E-Mail-Adresse gekümmert.
+
+\subsubsection{Vereinsinterne Konflikte}
+
+Philipp hat sich versucht um einen schwelenden Konflikt zwischen Mitgliedern
+des Vereins zu kümmern. Insbesondere wegen fehlender Zeit, ist er dabei jedoch
+kläglich gescheitert. Ich empfehle nun dringend Vorstandsmitglieder zu wählen, die
+die nötige Zeit mitbringen sich darum zu kümmern.
+
+\subsection{Bernd Kampe (Schriftführer)}
+
+Bernd war beim Notar und hat sich um die Vereinsregistereintragung gekümmert. Darüber hinaus war er bei der Commerzbank, um eine Änderung der Kontoführenden einzutragen. Es war noch ein längst ausgetretenes Gründungsmitglied eingetragen.
+
+\subsubsection{Finanzen}
+
+In der Übergangszeit hat Bernd Rechnungen bezahlt und Kontoführung betrieben. Dabei hat er sich auch um die einkommenden Tickets zu Spendenquittungen und anderen Anfragen gekümmert.
+
+\subsection{Fabian Thoms (Vorsitzender) -- ausgetreten am 20.07.19}
+
+Fabian vermittelte bis zu seinem Austritt in den vereinsinternen Konflikten.
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
